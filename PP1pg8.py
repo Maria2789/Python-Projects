@@ -1,0 +1,6 @@
+num = int(input("Enter amount to be withdrawn: "))
+t = int(num/10)
+num = num-(t*10)
+f = int(num/5)
+num = num-(f*5)
+print("Number of Rs.10 notes: ",t,"\nNumber of Rs.5 notes: ",f,"\nNumber of Rs.1 notes: ",num)
